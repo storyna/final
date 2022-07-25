@@ -1,0 +1,124 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgb(239, 255, 255);
+  color: lightslategray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  image-resolution: 90%;
+}
+.paragraph {
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* dark mode */
+.dark-mode {
+  background-color: lightslategray;
+  color: azure;
+  image-resolution: 50%;
+}
+.dark-button {
+  position: fixed;
+  right: 20px;
+}
+
+#myheader a {
+  position: fixed;
+  left: -110px;
+  transition: 0.2s;
+  padding: 18px;
+  width: 100px;
+  color: rgb(98, 124, 150);
+  border-radius: 10px 15px;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#myheader a:hover {
+  left: 0;
+}
+
+#head-about {
+  top: 20px;
+  background-color: lavender;
+}
+
+#head-skill {
+  top: 80px;
+  background-color: lightcyan;
+}
+#head-project {
+  top: 140px;
+  background-color: lightpink;
+}
+#head-contact {
+  top: 200px;
+  background-color: lightgoldenrodyellow;
+}
+#just-abt {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  margin-bottom: 200px;
+}
+.pic {
+  width: 90px;
+  border-radius: 40%;
+}
+
+/* my skill */
+.skill-english {
+  padding: 10px 20px;
+  color: lightcoral;
+  text-align: center;
+  width: 80%;
+  background-color: lightblue;
+}
+.skill-exel {
+  padding: 10px 20px;
+  color: lightcoral;
+  text-align: center;
+  width: 78%;
+  background-color: lightblue;
+}
+.skill-python {
+  padding: 10px 20px;
+  color: lightcoral;
+  text-align: center;
+  width: 70%;
+  background-color: lightblue;
+}
+.skill-JS {
+  padding: 10px 20px;
+  color: lightcoral;
+  text-align: center;
+  width: 55%;
+  background-color: lightblue;
+}
+
+#mySkill {
+  border: 2px solid lightblue;
+  width: 100%;
+}
+
+#just-skill {
+  margin: 200px;
+  box-sizing: border-box;
+}
+/* project */
+#just-project {
+  margin: 100px;
+}
+.p-project {
+  font-size: 18px;
+}
+/* my contact */
+#just-contc {
+  margin: 100px;
+}
+
+/* footer */
+.footer {
+  padding: 10px;
+}
